@@ -7,8 +7,9 @@ body{
 .button {
 
 	margin: auto;
-    height: 100px;
-    width: 150px;
+    /*margin-top: 400px;*/
+    height: 150px;
+    width: 300px;
     background-color: white;
     padding: 10px;
     text-align: center;
@@ -19,16 +20,18 @@ body{
 
 
 }
-.finalLine{
-	margin-top: 50px;
-	font-family: 'Ruslan Display', cursive;
-	font-size: 25px;
-	text-align: center;
-}
+
 .onclick{
 
 	height: 100px;
 	width: 100px;
 	margin-right: 50px;
 	
+}
+.date{
+
+	margin-top: 50px;
+	font-family: 'Ruslan Display', cursive;
+	font-size: 75px;
+	text-align: center;
 }
