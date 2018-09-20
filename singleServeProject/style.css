@@ -3,12 +3,6 @@ body{
 	background-color: #FF9A00;
 
 }
-.firstLine{
-	font-family: 'Ruslan Display', cursive;
-	font-size: 75px;
-	text-align: center;
-
-}
 
 .button {
 
@@ -30,4 +24,10 @@ body{
 	font-family: 'Ruslan Display', cursive;
 	font-size: 25px;
 	text-align: center;
+}
+.onclick{
+
+	height: 100px;
+	width: 100px;
+	
 }
