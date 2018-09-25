@@ -1,6 +1,8 @@
 body{
 
-	background-color: #FF9A00;
+	 background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #f12711, #f5af19); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f12711, #f5af19); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -8,16 +10,20 @@ body{
 
 	margin: auto;
     /*margin-top: 400px;*/
-    height: 150px;
+    height: 100px;
     width: 300px;
-    background-color: white;
+     background: #bdc3c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #bdc3c7, #2c3e50); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px;
     text-align: center;
 	vertical-align: middle;
 	line-height: 90px;
     font-size: 40px;
     border-radius: 25px;
-
+    font-size: 30px; 
+     box-shadow: 5px 10px;
+     cursor: default;
 
 }
 
@@ -31,7 +37,7 @@ body{
 .date{
 
 	margin-top: 50px;
-	font-family: 'Ruslan Display', cursive;
+	font-family: 'PT Sans Narrow', sans-serif;
 	font-size: 75px;
 	text-align: center;
 }
