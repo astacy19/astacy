@@ -16,15 +16,15 @@ margin-right: 100px;
 p {
 	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
-	margin-right: 200px;
-	margin-left: 200px;
+	margin-right: 275px;
+	margin-left: 275px;
 	letter-spacing: .75px;
 	line-height: 27px;
 }
 
 body{
 
-	background-color: #bdc3c7;
+	background-color: #f0f0ef;
 
 }
 
@@ -34,7 +34,16 @@ a:hover{
 
 
 }
+.topText{
 
+	margin-top: 70px;
+}
+
+.bottomText{
+
+	margin-bottom: 70px;
+}
 .link{
-	text-align: center;
+
+	margin-bottom: 75px;
 }
