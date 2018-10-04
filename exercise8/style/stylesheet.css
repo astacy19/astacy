@@ -1,0 +1,51 @@
+ * {
+
+	/*line-height: 1.5em;*/
+
+}
+
+h1{
+
+	font-family: 'Merriweather', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 55px;
+
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 35px;
+
+}
+h3{
+	font-family: 'Merriweather', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 25px;
+	margin-bottom: 50px;
+
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	letter-spacing: .75px;
+	margin-right: 325px;
+	margin-left: 325px;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+.intro{
+
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+
+}
+.signature{
+
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
+}
