@@ -1,6 +1,6 @@
 *{
 
-background color: #e8eff9
+background color: black;
 
 }
 h1{
@@ -10,6 +10,7 @@ h1{
 	margin-left: 100px;
 	text-align: center;
 	font-weight: bolder;
+	color: white;
 
 }
 
@@ -20,6 +21,7 @@ h2{
 	text-align: center;
 	margin-bottom: 25px;
 	font-weight: bold;
+	color: white;
 }
 
 
@@ -32,12 +34,13 @@ p {
 	letter-spacing: .75px;
 	line-height: 1.4em;
 	/*letter-spacing: in px, em, etc*/
+	color: white;
 	
 }
 
 body{
 
-	background-color: #fcfcfc;
+	background-color: black;
 
 }
 
@@ -77,6 +80,8 @@ a:visited{
 	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: .25px;
+	text-decoration: none;
+    border-bottom: 1px dotted black;
 }
 
 
