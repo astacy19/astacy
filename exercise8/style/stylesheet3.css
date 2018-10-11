@@ -6,17 +6,13 @@
 
 div{
 
-	/*transform: rotate(270deg);*/
-	position: absolute;
-	margin-left: 850px;
-	margin-top: 380px;
-
+	text-align: center;
 }
 
 
 h1{
 
-	font-family: 'Merriweather', serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-right: 325px;
 	margin-left: 325px;
 	font-size: 55px;
@@ -31,7 +27,7 @@ h2{
 
 }
 h3{
-	font-family: 'Merriweather', serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-right: 325px;
 	margin-left: 325px;
 	font-size: 25px;
@@ -40,7 +36,7 @@ h3{
 }
 
 p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Serif JP', sans-serif;
 	letter-spacing: .75px;
 	margin-right: 425px;
 	margin-left: 425px;
@@ -49,9 +45,9 @@ p{
 }
 .intro{
 
-	font-style: italic;
+	/*font-style: italic;*/
 	font-weight: bolder;
-	text-align: right;
+	text-align: center;
 
 }
 .signature{
