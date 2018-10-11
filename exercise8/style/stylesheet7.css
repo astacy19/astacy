@@ -1,0 +1,67 @@
+ * {
+
+	/*line-height: 1.5em;*/
+
+}
+
+/*.left{
+
+	text-align: left;
+}
+.right{
+	text-align: right; 
+}*/
+.center{
+	text-align: center;
+	transform: rotate(90deg);
+	position: fixed;
+	margin-left: 825px;
+	margin-top: 300px;
+
+}
+h1{
+
+	font-family: 'Lora', serif;
+	/*margin-right: 325px;
+	margin-left: 325px;*/
+	font-size: 450px;
+
+}
+
+h2{
+	font-family: 'Lora', serif;
+	/*margin-right: 325px;
+	margin-left: 325px;*/
+	font-size: 45px;
+
+}
+h3{
+	font-family: 'Lora', serif;
+	/*margin-right: 325px;
+	margin-left: 325px;*/
+	font-size: 45px;
+	margin-bottom: 50px;
+
+}
+
+p{
+	font-family: 'Playfair Display', serif;
+	letter-spacing: .75px;
+	margin-right: 425px;
+	margin-left: 425px;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+.intro{
+
+	/*font-style: italic;*/
+	font-weight: bolder;
+	text-align: center;
+	font-size: 55px;
+
+}
+.signature{
+
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
+}

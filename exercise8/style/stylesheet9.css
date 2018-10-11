@@ -1,0 +1,67 @@
+ * {
+
+	/*line-height: 1.5em;*/
+
+}
+
+div{
+
+	/*transform: rotate(270deg);*/
+	position: fixed;
+	margin-left: 850px;
+	margin-top: 380px;
+
+}
+
+
+h1{
+
+font-family: 'Lora', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 55px;
+	color: red;
+
+}
+
+h2{
+	font-family: 'Lora', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 35px;
+	color: red;
+
+}
+h3{
+	font-family: 'Lora', serif;
+	margin-right: 325px;
+	margin-left: 325px;
+	font-size: 25px;
+	margin-bottom: 50px;
+	color: red;
+
+}
+
+p{
+	font-family: 'Playfair Display', serif;
+	letter-spacing: .75px;
+	margin-right: 425px;
+	margin-left: 425px;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+.intro{
+
+	font-style: italic;
+	font-weight: bolder;
+	text-align: right;
+	position: fixed;
+	margin-left: 800px;
+	margin-top: 200px;
+
+}
+.signature{
+
+	font-family: 'Charmonman', cursive;
+	font-size: 25px;
+}
