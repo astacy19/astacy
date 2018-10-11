@@ -80,8 +80,8 @@ a:visited{
 	font-size: 22px;
 	font-weight: bold;
 	letter-spacing: .25px;
-	text-decoration: none;
-    border-bottom: 1px dotted black;
+	/*text-decoration: none;
+    border-bottom: 1px dotted black;*/
 }
 
 
