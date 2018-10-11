@@ -43,7 +43,10 @@ body{
 	background-color: black;
 
 }
+a{
 
+	color: #ce9898;
+}
 a:hover{
 	color: #7f8c8d;
 	transition: color .2s ease;
