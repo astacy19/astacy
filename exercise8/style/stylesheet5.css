@@ -11,6 +11,9 @@
 .right{
 	text-align: right; 
 }
+.center{
+	text-align: center;
+}
 h1{
 
 	font-family: 'Acme', sans-serif;
@@ -48,7 +51,7 @@ p{
 
 	/*font-style: italic;*/
 	font-weight: bolder;
-	text-align: left;
+	text-align: center;
 
 }
 .signature{
