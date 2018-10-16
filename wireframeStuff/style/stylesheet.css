@@ -1,0 +1,23 @@
+a{
+			font-size: 50px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			font-family: sans-serif;
+			color: tomato;
+			text-decoration: none;
+			border-bottom: 20px dodgerblue;
+			transition: color .5s ease;
+
+	}
+a:hover{
+
+			color: seagreen;
+			border-bottom: 20px dodgerblue;
+			text-decoration: underline;
+	}
+
+img{
+
+	height: 800px;
+	width: 800px;
+}
