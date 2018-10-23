@@ -17,6 +17,11 @@ body {
 	margin: 0 auto;
 	background-color: white;
 }
+.contrast-text {
+	width: 45vw;
+	margin: 0 auto;
+	background-color: white;
+}
 .large-img {
 	width: 50vw;
 	margin: 0 auto;
