@@ -15,6 +15,13 @@ img{
     width: 50%;
 }
 .bigText{
-
+	margin-top: 65px;
+	margin-bottom: 75px;
+	margin-right: 550px;
+	margin-left: 25px;
 	
+}
+.firstWords{
+
+	font-size: 17px;
 }
