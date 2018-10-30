@@ -1,0 +1,20 @@
+.titleStuff{
+	text-align: center;
+}
+p{
+	margin-left: 425px;
+	margin-right: 425px;
+	line-height: 1.5em;
+}
+
+img{
+	/*position: fixed;
+	display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bigText{
+
+	
+}

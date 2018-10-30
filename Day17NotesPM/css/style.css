@@ -1,0 +1,64 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+#container {
+	width: 90vw;
+	margin: auto;
+}
+.one, .two, .three, .four {
+	height: 500px;
+	margin: 10px;
+	float: left;
+}
+.one {
+	width: calc((100% / 4) - 20px);
+	background-color: green;
+}
+.two {
+	width: calc((100% / 2) - 20px);
+	background-color: blue;
+}
+.three {
+	width: calc((100% * .75) - 20px);
+	background-color: red;
+}
+.four {
+	width: calc(100% - 20px);
+	background-color: yellow;
+}
+
+@media only screen and (max-width: 1024px) {
+	.one {
+		width: calc((100% / 2) - 20px);
+		background-color: green;
+	}
+	.two {
+		width: calc(100% - 20px);
+		background-color: blue;
+	}
+	.three {
+		width: calc((100% / 2) - 20px);
+		background-color: red;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.one {
+		width: calc(100% - 20px);
+		background-color: green;
+	}
+	.three {
+		width: calc(100% - 20px);
+		background-color: red;
+	}
+}
+
+
+
+
