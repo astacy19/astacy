@@ -26,12 +26,6 @@
   src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
 }
 
-/** Medium */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 500;
-  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
-}
 
 /** Regular */
 @font-face {
@@ -65,16 +59,20 @@
 .title{
 	text-align: center;
 }
-.subTitle{
+.subtitle{
 	font-family: "SF Display";
+	font-weight: 200;
+	font-style: italic;
 }
-p{
-	margin-left: 425px;
-	margin-right: 425px;
+p{ /*fix to not affect all paragraphs*/
+	margin-left: 35vw;
+	margin-right: 35vw;
 	line-height: 1.5em;
 	font-family: "SF Display";
 	font-weight: 400;
 	line-height: 1.47em;
+	column-width: 1000px;
+	column-count: 1;
 
 }
 
@@ -104,4 +102,59 @@ img{
 .firstWords{
 
 	font-size: 17px;
+	font-family: "SF Display";
+  	font-weight: 800;
+  	letter-spacing: .035em;
 }
+.footer{
+
+	font-family: "SF Display";
+	font-size: 20px;
+	font-weight: 800;
+
+}
+.caption{
+
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 1em;
+	font-size: 12px;
+	margin-top: 0vw;
+	margin-left: 24vw;
+
+}
+.credits{
+
+	font-size: 10px;	
+}
+
+.text{
+
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 1.1em;
+}
+.titleImage{
+
+	margin-right: 24vw;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
