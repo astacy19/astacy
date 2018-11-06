@@ -1,85 +1,37 @@
 
-@font-face {
-  font-family: "SF Display";
-  font-weight: 900;
-  src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
-}
-
-/** Bold */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 700;
-  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
-}
-
-/** Heavy */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 800;
-  src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf");
-}
-
-/** Light */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 200;
-  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
-}
 
 
-/** Regular */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 400;
-  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
-}
 
-/** Semibold */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 600;
-  src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
-}
-
-/** Thin */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 300;
-  src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
-}
-
-/** Ultralight */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 100;
-  src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf");
-}
-
-/**/
 .title{
 	text-align: center;
 }
 .subtitle{
-	font-family: "SF Display";
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
 	font-style: italic;
+	margin-top: 0px;
+	font-size: 12px;
 }
+
 p{ /*fix to not affect all paragraphs*/
 	margin-left: 35vw;
-	margin-right: 35vw;
-	line-height: 1.5em;
-	font-family: "SF Display";
+	font-size: 21px;
+	margin-right: 30vw;
+	line-height: 1.3em;
+	font-family: 'Spectral', serif;
 	font-weight: 400;
-	line-height: 1.47em;
-	column-width: 1000px;
+	line-height: 1.31em;
+	column-width: 600px;
 	column-count: 1;
+	/*letter-spacing: .035em;*/
 
 }
 
 h1{
 
-	font-family: "SF Display";
+	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
+	font-size: 45px;
 }
 
 img{
@@ -89,9 +41,10 @@ img{
     margin-right: auto;
     width: 50%;
     align-content: center;
-    height: 500px
-    width: 600px;
+    height: 800px
+    width: 900px;
 }
+
 .bigText{
 	margin-top: 65px;
 	margin-bottom: 75px;
@@ -101,14 +54,14 @@ img{
 }
 .firstWords{
 
-	font-size: 17px;
-	font-family: "SF Display";
-  	font-weight: 800;
+	font-size: 23px;
+	font-family: 'Spectral', serif;
+  	font-weight: 700;
   	letter-spacing: .035em;
 }
 .footer{
 
-	font-family: "SF Display";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
 	font-weight: 800;
 
@@ -121,6 +74,7 @@ img{
 	font-size: 12px;
 	margin-top: 0vw;
 	margin-left: 24vw;
+	font-style: italic; 
 
 }
 .credits{
@@ -140,7 +94,32 @@ img{
 	margin-right: 24vw;
 
 }
+.topic{
 
+	font-size: 23px;
+	font-family: 'Open Sans', sans-serif;
+  	font-weight: 800;
+  	letter-spacing: .035em;
+  	font-style: bold;
+}
+
+@media only screen and (max-width: 1024px){
+
+	p{ /*fix to not affect all paragraphs*/
+	margin-left: 30vw;
+	font-size: 19px;
+	margin-right: 30vw;
+	line-height: 1.3em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.31em;
+	column-width: 800px;
+	column-count: 1;
+	/*letter-spacing: .035em;*/
+
+}
+
+}
 
 
 
