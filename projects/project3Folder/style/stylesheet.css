@@ -1,5 +1,11 @@
+.container{
+	/*background-color: green;*/
+}
+
+.imageStuff{
 
 
+}
 
 
 .title{
@@ -48,7 +54,7 @@ img{
 .bigText{
 	margin-top: 65px;
 	margin-bottom: 75px;
-	margin-right: 530px;
+	margin-right: 40vw;
 	margin-left: 25px;
 	
 }
@@ -114,10 +120,29 @@ img{
 	font-weight: 400;
 	line-height: 1.31em;
 	column-width: 800px;
-	column-count: 1;
+	/*column-count: 1;*/
 	/*letter-spacing: .035em;*/
+}
 
 }
+
+@media only screen and (max-width: 768px){
+
+	p{
+		font-size: 19px;
+		line-height: 1.3em;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		line-height: 1.31em;
+		margin-right: 20vw;
+	}
+
+}
+@media only screen and (max-width: 375px){
+
+	p{
+		
+	}
 
 }
 
