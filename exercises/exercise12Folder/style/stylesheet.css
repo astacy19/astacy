@@ -1,0 +1,79 @@
+
+h1,h2 {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 40vh 0;
+}
+h1{
+	font-size: 2em;
+
+}
+h2{
+	font-size: 1em;
+
+}
+body {
+    margin: 0;
+    font-size: 20px;
+}
+.number5 {
+    /*position: absolute;*/
+    top: 0;
+    left: -100%;
+    transition: all 2s ease;
+}
+.number4 {
+    /*position: fixed;*/
+    top: 0;
+    right: -100%;
+    transition: all 2s ease;
+}
+.moveITR {
+    right: 0;
+}
+.moveITL {
+    left: 0;
+}
+.box {
+    width: 100vw;
+    height: 100vh;
+}
+h1, h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding-top: 40vh;
+    transition: all 10s ease;
+}
+.typeMove {
+    padding-top: 80vh;
+    padding-right: 50vw;
+}
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+}
+.redBG {
+    background-color: tomato;
+}
+.blueBG {
+    background-color: lightblue;
+}
+.purpleBG {
+    background-color: purple;
+}
+.jqClick, .jqHover {
+    cursor: pointer;
+
+}
+
+
+
+
+
