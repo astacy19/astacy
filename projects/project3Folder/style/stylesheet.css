@@ -48,11 +48,12 @@ h1{
 	font-size: 60px;
 }
 img{
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 75vh;
+    max-width: 75vw;
 }
 .imageBox{
-	margin-left:50px;
+	margin: 0 auto;
+	width: 1000px;
 }
 .footer{
 
