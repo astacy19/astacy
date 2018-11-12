@@ -69,7 +69,6 @@ img{
 	line-height: 1em;
 	font-size: 12px;
 	font-style: italic; 
-
 }
 
 .text{
@@ -119,6 +118,15 @@ img{
 	margin-bottom: 20px;
 	}
 
+	img{
+    max-height: 75vh;
+    max-width: 75vw;
+	}
+	.imageBox{
+		margin: 0 auto;
+		width: 1000px;
+	}
+
 }
 
 
@@ -137,13 +145,23 @@ img{
 	font-weight: 800;
 	font-size: 30px;
 	line-height: 1em;
-	width: 650px;
+	width: 450px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	}
+	.paragraph{
+	width: 400px;
+	margin: 0 auto;
+	}
 
-
-
+	.caption{
+	font-family: sans-serif;
+	font-weight: 200;
+	line-height: 1em;
+	font-size: 12px;
+	font-style: italic; 
+	width: 375px;
+}
 }
 @media only screen and (max-width: 375px){
 
