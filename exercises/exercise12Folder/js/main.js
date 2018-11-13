@@ -14,9 +14,10 @@ $(document).ready(function() {
     });
 });
 // link to mouse events https://api.jquery.com/category/events/mouse-events/
+
 function interactions() {
     $('.jqClick').click(function(){
-        $('.number4').toggleClass('moveITL');
+        $('.number5').toggleClass('moveITR');
         console.log('clicked');
     });
     $('.jqHover').click(function(){
@@ -27,9 +28,10 @@ function interactions() {
         $('h1').toggleClass('typeMove');
     });
 }
- 
-function variables() {
-    var h1H = $('h1').height();
-    var wH = $(window).height();
-    console.log(h1H);
-}
+
+
+// function variables() {
+//     var h1H = $('h1').height();
+//     var wH = $(window).height();
+//     console.log(h1H);
+// }

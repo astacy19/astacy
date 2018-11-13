@@ -18,17 +18,32 @@ body {
     font-size: 20px;
 }
 .number5 {
-    /*position: absolute;*/
     top: 0;
     left: -100%;
-    transition: all 2s ease;
+    transition: 2s ease;
 }
 .number4 {
-    /*position: fixed;*/
     top: 0;
     right: -100%;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
+.number3 {
+    top: 0;
+    left: -100%;
+    transition: 2s ease;
+}
+.number2 {
+    top: 0;
+    right: -100%;
+    transition: all 1s ease;
+}
+.number1 {
+    top: 0;
+    right: -100%;
+    transition: all 1s ease;
+}
+
+
 .moveITR {
     right: 0;
 }
@@ -60,13 +75,19 @@ h2 {
     font-size: 2em;
 }
 .redBG {
-    background-color: tomato;
+    background-color: #E23636;
+}
+.grayBG {
+    background-color: #808080;
 }
 .blueBG {
     background-color: lightblue;
 }
-.purpleBG {
-    background-color: purple;
+.greenBG{
+	background-color: #3C8D0D;
+}
+.brightRedBG{
+	background-color: #ff2800;
 }
 .jqClick, .jqHover {
     cursor: pointer;
