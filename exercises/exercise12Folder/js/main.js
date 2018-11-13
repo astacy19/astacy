@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 function interactions() {
     $('.jqClick').click(function(){
-        $('.number5').toggleClass('moveITR');
+        $('.number5').toggleClass('moveITL');
         console.log('clicked');
     });
     $('.jqHover').click(function(){
