@@ -25,7 +25,7 @@ function nameGuess() {
 			$('input').val('');
 			$('.button p').text('Play Again?');
 			$('#submit').click(function() {
-				location.reload(true);
+				// location.reload(true);
 			});
 		}
 	})
