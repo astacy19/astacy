@@ -23,7 +23,7 @@ function nameGuess() {
 		} else  {
 			$('h1').text(guess + ' is wrong');
 			$('input').val('');
-			$('.button p').text('Play Again?');
+			$('.button p').text('Guess again');
 			$('#submit').click(function() {
 				// location.reload(true);
 			});
