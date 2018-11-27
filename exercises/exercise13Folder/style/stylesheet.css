@@ -15,9 +15,9 @@ h1, p {
 h1 {
 	font-size: 48px;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: serif;
 	/*text-transform: uppercase;*/
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 }
 input {
 	width: 50vw;
@@ -40,7 +40,7 @@ input {
 }
 .button p {
 	text-align: center;
-	font-family: sans-serif;
+	font-family: serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-weight: bold;
