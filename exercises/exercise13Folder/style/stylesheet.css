@@ -1,0 +1,47 @@
+
+body {
+	margin: 0;
+	color: black;
+}
+#container {
+	width: 50vw;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+}
+
+h1, p {
+	margin: 0;
+}
+h1 {
+	font-size: 48px;
+	text-align: center;
+	font-family: sans-serif;
+	/*text-transform: uppercase;*/
+	letter-spacing: 2px;
+}
+input {
+	width: 50vw;
+	height: 40px;
+	margin-top: 50px;
+	font-size: 30px;
+	padding: 25px 0;
+	text-align: center;
+}
+.button {
+	width: 150px;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin: 50px auto;
+}
+.button:hover {
+	cursor: pointer;
+}
+.button p {
+	text-align: center;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
