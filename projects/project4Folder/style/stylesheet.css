@@ -1,6 +1,7 @@
-/*div{
+div{
 	column-count: 2;
-}*/
+	column-width: 750px;
+}
 
 img{
 	max-width: 30%;
