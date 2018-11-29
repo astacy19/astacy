@@ -1,5 +1,49 @@
-body{background-color: whitesmoke}
-.album {
+.info{
+	width: 30vw;
+	margin: 0 auto;
+}
+p {
+	line-height: 1.4em;
+}
+
+body {
+	margin: 0;
+	background-color: whitesmoke
+}
+.red {
+	background-color: dodgerblue;
+}
+.container {
+	width: 100vw;
+}
+.header, .main {
+	width: 60vw;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+.logo, .nav, li {
+	float: left;
+}
+ul {
+	margin: 0;
+}
+li {
+	padding: 0 25px;
+	list-style: none;
+}
+h4 {
+	margin: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/*.album {
 	float:left; width: 40vw;
 }
 .a4 {
@@ -11,7 +55,7 @@ body{background-color: whitesmoke}
 img{
 	max-width: 80%
 }
-
+*/
 /*@media only screen and (max-width: 600px){
 
 
