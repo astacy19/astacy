@@ -1,9 +1,13 @@
+
+
 .info{
 	width: 30vw;
 	margin: 0 auto;
 }
 p {
 	line-height: 1.4em;
+	font-family: 'Roboto', sans-serif;
+
 }
 
 body {
@@ -13,7 +17,7 @@ body {
 .red {
 	background-color: dodgerblue;
 }
-.container {
+.mainContainer {
 	width: 100vw;
 }
 .header, .main {
@@ -44,15 +48,53 @@ h4 {
     clear: both;
 }
 .album {
-	float:left; width: 40vw;
+	float:left; 
+	width: 40vw;
+	/*background-color: red;*/
+}
+.album img {
+	width: 100%;
 }
 .a4 {
 	margin-bottom: 5px;
+	width: 100%
+}
+
 }
 .container{
 	margin: 0 auto;
-	
 }
-img{
-	max-width: 80%
+
+.backCover{
+
+	max-width: 100%;
+
 }
+.frontAlbum{
+	/*max-width: 80%;*/
+}
+.info{
+	/*background-color: green;*/
+	width: 525px;
+}
+/*.firstWords{
+
+}*/
+.title{
+	font-weight: bold;
+	margin: 0;
+	font-size: 30px;
+	text-align: center;
+
+}
+.mainContainer{
+	width: 80vw;
+	margin: 0 auto;
+	/*background-color: green;*/
+}
+
+
+
+
+
+
