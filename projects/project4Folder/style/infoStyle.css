@@ -1,7 +1,7 @@
 .titleImage{
 	margin-top: 0;
 	text-align: center;
-	background: url(../assets/testBg2.png) no-repeat center center; 
+	background: url(../assets/testBg.jpeg) no-repeat center center; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
  	 -o-background-size: cover;
@@ -36,7 +36,7 @@ body {
 	width: 100vw;
 }
 .header, .main {
-	width: 60vw;
+	width: 80vw;
 	margin: 0 auto;
 	padding: 25px 0;
 }
@@ -47,7 +47,8 @@ ul {
 	margin: 0;
 }
 li {
-	padding: 0 25px;
+	padding: 0 20px;
+	padding-right: 0;
 	list-style: none;
 }
 h4 {
@@ -82,31 +83,29 @@ h4 {
 
 .backCover{
 
-	max-width: 100%;
+	max-width: 200%;
+	
 
 }
 .frontAlbum{
 	/*max-width: 80%;*/
 }
-.info{
-	/*background-color: green;*/
-	width: 525px;
-}
-/*.firstWords{
 
-}*/
+
 .title{
 	font-weight: bold;
-	margin: 0;
-	color: white;
-	font-size: 30px;
+	/*margin: 0;*/
+	margin: auto;
+    width: 50%;
+	/*color: white;*/
+	font-size: 35px;
 	text-align: center;
 }
 .subtitle{
 	font-weight: bold;
 	margin: 0;
-	color: white;
-	font-size: 30px;
+	/*color: white;*/
+	font-size: 27px;
 	text-align: center;
 	/*margin-bottom: 15px;*/
 }
@@ -115,8 +114,16 @@ h4 {
 	margin: 0 auto;
 	/*background-color: green;*/
 }
-
-
+.endQuote p{
+	font-style: italic;
+	font-size: 15px;
+	width: 30vw;
+	margin: 0 auto;
+}
+.endQuote{
+	margin-top: 60px;
+	/*background-color: green;*/
+}
 
 
 
