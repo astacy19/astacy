@@ -22,15 +22,13 @@ p {
 	/*font-family: 'Roboto', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.75em;
-
 }
-
 body {
 	margin: 0;
 	background-color: whitesmoke
 }
 .red {
-	background-color: dodgerblue;
+	background-color: #3098e9;
 }
 .mainContainer {
 	width: 100vw;
@@ -82,10 +80,11 @@ h4 {
 }
 
 .backCover{
-
-	max-width: 200%;
-	
-
+	width: 50vw;
+	margin: 0 auto;
+}
+.backCover img{
+	width: 200%;
 }
 .frontAlbum{
 	/*max-width: 80%;*/
