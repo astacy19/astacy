@@ -144,14 +144,55 @@ h4 {
 	margin-top: 60px;
 	/*background-color: green;*/
 }
-.subtitleImage img{
-	width: 125vw;
-  	height: 100vh;
+.subtitleImage{
+	width: 35vw;
+	margin: 0 auto;
+	text-align: center;
 }
-@media only screen and (max-width: 700px){
-	p{
+.box{
+	background-color: grey;
+	width: 35vw;
+	height: 59vh;
+	text-align: center;
+	margin: 0 auto;
+}
+.test{
+	float: right;
+}
+@media only screen and (max-width: 768px){
+	/*p{
 		
+	}*/
+	.mainContainer {
+		width: 75vw;
+		text-align: center;
 	}
+	/*.mainContainer p {
+		text-align: left;
+	}*/
+	.album{
+		/*float:left; */
+		width: 70vw;
+		margin-bottom: 13px;
+	}
+	.info{
+		width: 75vw;
+	}	
+	.backCover{
+		width: 70vw;
+		max-width: 110%;
+	}
+	.aboutPgImage{
+		width: 70vw;
+		max-width: 110%;
+		margin: 0 auto;
+	}
+
+}
+@media only screen and (max-width: 1024px){
+	/*p{
+		
+	}*/
 	.mainContainer {
 		width: 70vw;
 		text-align: center;
@@ -165,7 +206,7 @@ h4 {
 		margin-bottom: 13px;
 	}
 	.info{
-		width: 55vw;
+		width: 50vw;
 	}	
 	.backCover{
 		width: 65vw;
@@ -176,8 +217,38 @@ h4 {
 		max-width: 110%;
 		margin: 0 auto;
 	}
-}
 
+}
+@media only screen and (max-width: 2000px){
+	/*p{
+		
+	}*/
+	/*.mainContainer {
+		width: 70vw;
+		text-align: center;
+	}*/
+	.mainContainer p {
+		text-align: left;
+	}
+	.album{
+		/*float:left; */
+		width: 70vw;
+		margin-bottom: 13px;
+	}
+	.info{
+		width: 50vw;
+	}	
+	.backCover{
+		width: 65vw;
+		max-width: 110%;
+	}
+	.aboutPgImage{
+		width: 65vw;
+		max-width: 110%;
+		margin: 0 auto;
+	}
+
+}
 
 
 
