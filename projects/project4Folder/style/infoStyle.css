@@ -17,11 +17,22 @@
 	width: 30vw;
 	margin: 0 auto;
 }
+h4{
+	font-family: 'Frank Ruhl Libre', serif;	
+	font-weight: 700;
+}
+li{
+	font-family: 'Frank Ruhl Libre', serif;
+}
+a{
+	color: black;
+	/*color: #010062;*/
+	/*color: #5000C5;*/
+}
 p {
-	line-height: 1.4em;
-	/*font-family: 'Roboto', sans-serif;*/
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.75em;
+	line-height: 1.5em;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 17px;
 }
 body {
 	margin: 0;
@@ -32,6 +43,10 @@ body {
 }
 .mainContainer {
 	width: 100vw;
+	text-align: center;
+}
+.mainContainer p {
+	text-align: left;
 }
 .header, .main {
 	width: 80vw;
@@ -80,11 +95,9 @@ h4 {
 }
 
 .backCover{
-	width: 50vw;
-	margin: 0 auto;
-}
-.backCover img{
-	width: 200%;
+	width: 40vw;
+	margin: 0 auto
+
 }
 .frontAlbum{
 	/*max-width: 80%;*/
@@ -119,10 +132,26 @@ h4 {
 	width: 30vw;
 	margin: 0 auto;
 }
+.firstWords{
+	font-size: 19px;
+	font-weight: 600;
+}
 .endQuote{
 	margin-top: 60px;
 	/*background-color: green;*/
 }
+.subtitleImage img{
+	width: 125vw;
+  	height: 100vh;
+}
+
+
+
+
+
+
+
+
 
 
 
