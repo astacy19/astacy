@@ -79,6 +79,7 @@ h4 {
 .album {
 	float:left; 
 	width: 40vw;
+	/*margin-bottom: 12px;*/
 	/*background-color: red;*/
 }
 .album img {
@@ -96,8 +97,11 @@ h4 {
 
 .backCover{
 	width: 40vw;
-	margin: 0 auto
-
+	margin: 0 auto;
+}
+.aboutPgImage{
+	width: 50vw;
+	margin: 0 auto;
 }
 .frontAlbum{
 	/*max-width: 80%;*/
@@ -144,7 +148,35 @@ h4 {
 	width: 125vw;
   	height: 100vh;
 }
-
+@media only screen and (max-width: 700px){
+	p{
+		
+	}
+	.mainContainer {
+		width: 70vw;
+		text-align: center;
+	}
+	/*.mainContainer p {
+		text-align: left;
+	}*/
+	.album{
+		/*float:left; */
+		width: 70vw;
+		margin-bottom: 13px;
+	}
+	.info{
+		width: 55vw;
+	}	
+	.backCover{
+		width: 65vw;
+		max-width: 110%;
+	}
+	.aboutPgImage{
+		width: 65vw;
+		max-width: 110%;
+		margin: 0 auto;
+	}
+}
 
 
 
