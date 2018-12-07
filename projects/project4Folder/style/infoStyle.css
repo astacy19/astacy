@@ -191,15 +191,12 @@ h4 {
 }
 @media only screen and (max-width: 1024px){
 	/*p{
-		
+		font-size: 
 	}*/
 	.mainContainer {
 		width: 70vw;
 		text-align: center;
 	}
-	/*.mainContainer p {
-		text-align: left;
-	}*/
 	.album{
 		/*float:left; */
 		width: 70vw;
@@ -219,36 +216,7 @@ h4 {
 	}
 
 }
-@media only screen and (max-width: 2000px){
-	/*p{
-		
-	}*/
-	/*.mainContainer {
-		width: 70vw;
-		text-align: center;
-	}*/
-	.mainContainer p {
-		text-align: left;
-	}
-	.album{
-		/*float:left; */
-		width: 70vw;
-		margin-bottom: 13px;
-	}
-	.info{
-		width: 50vw;
-	}	
-	.backCover{
-		width: 65vw;
-		max-width: 110%;
-	}
-	.aboutPgImage{
-		width: 65vw;
-		max-width: 110%;
-		margin: 0 auto;
-	}
 
-}
 
 
 
