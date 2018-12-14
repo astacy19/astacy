@@ -113,15 +113,16 @@ h4 {
 	/*margin: 0;*/
 	margin: auto;
     width: 50%;
-	/*color: white;*/
-	font-size: 35px;
+	color: white;
+	font-size: 37px;
 	text-align: center;
+	text-decoration: underline;
 }
 .subtitle{
 	font-weight: bold;
 	margin: 0;
-	/*color: white;*/
-	font-size: 27px;
+	color: white;
+	font-size: 24px;
 	text-align: center;
 	/*margin-bottom: 15px;*/
 }
