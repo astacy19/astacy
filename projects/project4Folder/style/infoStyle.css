@@ -116,7 +116,8 @@ h4 {
 	color: white;
 	font-size: 37px;
 	text-align: center;
-	text-decoration: underline;
+	text-decoration-line: underline;
+  	text-decoration-style: dotted;
 }
 .subtitle{
 	font-weight: bold;
