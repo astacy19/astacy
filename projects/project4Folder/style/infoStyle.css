@@ -177,6 +177,7 @@ h4 {
 	}
 	.info{
 		width: 75vw;
+		column-width: 65vw;
 	}	
 	.backCover{
 		width: 70vw;
