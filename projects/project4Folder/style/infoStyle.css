@@ -177,7 +177,7 @@ h4 {
 	}
 	.info{
 		width: 75vw;
-		column-width: 65vw;
+		max-width: 110%;
 	}	
 	.backCover{
 		width: 70vw;
@@ -204,7 +204,7 @@ h4 {
 		margin-bottom: 13px;
 	}
 	.info{
-		width: 50vw;
+		width: 75vw;
 	}	
 	.backCover{
 		width: 65vw;
